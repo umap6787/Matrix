@@ -1,0 +1,30 @@
+section{
+    height: 600px;
+    width: 900px;
+    border: 7px solid black;
+
+    /* background-image: linear-gradient(orange ,white ,green); */
+
+    /* to top (bottom-top)*/
+    /* background-image: linear-gradient(0deg,blue,purple,red, black); */
+
+    /* to right(right--left) */
+    /* background-image: linear-gradient(90deg,blue,purple,red, black); */
+    
+    /* to bottom(top--bottom) */
+    /* background-image: linear-gradient(180deg,blue,purple,red, black); */
+    
+    /* to left(right--left) */
+    /* background-image: linear-gradient(270deg,blue,purple,red, black); */
+    
+    /* to top(bottom--top) */
+    /* background-image: linear-gradient(360deg,blue,purple,red, black); */
+
+    /* background-image: linear-gradient(45deg,pink,white,purple,orange); */
+
+    /* radial-gradien will be like a circle or ellips */
+    /* background-image: radial-gradient(circle,pink,white,purple,orange); */
+
+    /* background-image: repeating-radial-gradient(pink 10%,white 20%,purple 30%,orange 40%); */
+    background-image: repeating-radial-gradient(red 20%,blue 30%,white 40%);
+}

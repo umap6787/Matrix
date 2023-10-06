@@ -1,0 +1,38 @@
+/* first-letter: targets only the first letter of the element */
+p::first-letter{
+    color: rgb(13, 13, 13);
+    background-color: rgb(97, 116, 239);  
+}
+/* first-line: targets only the first line of the element */
+p::first-line{
+    color: rgb(14, 210, 109);
+    background-color: rgb(147, 100, 100);  
+}
+/* before: adds the content before the element and properties will be applied to that content */
+p::before{
+    content: "GOOD MORNING !! ";
+    color: aqua;
+    background-color: red;  
+}
+/* after: adds the content after the element and properties will be applied to that content  */
+p::after{
+    content: "THANK YOU";
+    color: chartreuse;
+    background-color: cornflowerblue;
+}
+/* selection: change the default color of selecting text,
+   user-select:none ==> makes the user not to select the text */
+p::selection{
+    color:rgb(91, 163, 245);
+    background-color: rgb(213, 69, 167);
+    user-select: none;
+}
+/* marker: target the list type background-color doesnot works */
+p::marker{
+    color: yellow;
+}
+::marker{
+    color: rgb(253, 139, 9);
+    font-size: 30px;
+    /* background-color: rgb(20, 226, 34); */
+}

@@ -1,0 +1,67 @@
+/* POSITION */
+/* position:static(default)
+relative --> 
+absolute --> it will make adjucent element to occupy the white space
+fixed -->
+sticky --> 
+*/
+
+/* position: relative */
+/* section{
+    height: 500px;
+    width: 500px;
+    background-color: blue;
+    position: relative;
+}
+section aside{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 150px;
+    margin: 60px 0px 0px 30px;
+} */
+
+/* section{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
+
+/* position: relative
+aside{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+     position: absolute--> it will make adjucent element to occupy the white space
+    position: absolute;
+    margin-left: 220px;
+}
+main{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(233, 11, 126);
+} */
+
+/* position: fixed */
+/* nav{
+    height: 100px;
+    width: 500px;
+    border: 2px solid rgb(252, 5, 5);
+    background-color: aqua;
+    font-size: 50px;
+    position: fixed;
+} */
+
+/* position: sticky */
+nav{
+    height: 100px;
+    width: 500px;
+    border: 2px solid rgb(252, 5, 5);
+    background-color: aqua;
+    font-size: 50px;
+    position: sticky;
+    top: 20px;
+    left: 60px;
+}

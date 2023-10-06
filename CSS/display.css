@@ -1,0 +1,103 @@
+/* display:flex */
+/* flex
+-direction: row,column,row-reverse, column-reverse */
+/* gap: work as both column-gap & row-gap depending on flex-direction*/
+/* column-gap: gives gap when flex-direction is row */
+/* row-gap: gives gap when flex-direction is column */
+
+section{
+    height: 264px;
+    width: 550px;
+    font-size: 50px;
+    border: 10px solid black;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* row-gap: 5px; */
+    /* flex-direction: row;
+    column-gap: 5px; */
+    flex-wrap: wrap;
+}
+
+section aside{
+    height: 100px;
+    width: 100px;
+    /* font-size: 50px; */
+    border: 10px solid red;
+    background-color: aqua;
+}
+
+/* flex-basis: to specify the width of flex-items */
+/* flex-grow: the flex items occupies the remaining space of the flex-container */
+/* flex-shrink: the flex-items shrinks according to the view-point */
+/* SHORTHAND */
+/* flex: flex-grow, flex-shrink, flex-basis; */
+
+
+section aside_1{
+    height: 100px;
+    width: 100px;
+    flex-basis: 100px;
+    /* font-size: 50px; */
+    border: 10px solid rgb(242, 75, 203);
+    background-color: blueviolet;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+section aside_2{
+    height: 100px;
+    width: 100px;
+    flex-basis: 100px;
+    /* font-size: 50px; */
+    border: 10px solid rgb(123, 94, 211);
+    background-color: rgb(5, 250, 74);
+    flex-grow: 1;
+    flex-shrink: 2;
+}
+section aside_3{
+    height: 100px;
+    width: 100px;
+    flex-basis: 100px;
+    /* font-size: 50px; */
+    border: 10px solid white;
+    background-color: rgb(253, 3, 203);
+    flex-grow: 1;
+    flex-shrink: 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,50 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    position: relative;
+    animation-name: box;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-delay: 3s;
+    animation-iteration-count:infinite;
+    animation-direction: normal;
+    animation-fill-mode: both;
+
+    /* animation: name duration, timing-function, delay, iteration-count, direction, fill-mode; */
+}
+
+@keyframes box {
+    from{
+        background-color: blue;
+        
+        top: 200px;
+    }
+    to{
+        background-color: green;
+        left: 200px;
+    } 
+}
+
+/* @keyframes box{
+    0%{
+        background-color: yellow;
+
+    }
+    20%{
+        background-color: rgb(0, 255, 55);
+    }
+    40%{
+        background-color: rgb(0, 195, 255);
+    }
+    60%{
+        background-color: rgb(38, 0, 255);
+    }
+    80%{
+        background-color: rgb(217, 0, 255);
+    }
+    100%{
+        background-color: rgb(255, 0, 136);
+    }
+
+} */

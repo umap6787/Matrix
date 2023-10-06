@@ -1,0 +1,32 @@
+/* always id will be the 1st priority(b/w id & class) */
+/* #demo{
+    background-color: blue;
+} */
+.test{
+    background-color: violet
+}
+/* class will be the 1st priority (b/w tag name & class) */
+.test{
+    background-color: red;
+}
+p{
+    background-color: aqua;
+}
+
+/* attribute selector is 1st priority(b/w tag name & attribute) */
+p{
+    background-color: chartreuse;
+}
+/* p[id]{
+    background-color: dimgray;
+} */
+/* 1.id 2.attribute 3.class 4.tagname --> priority */
+
+p::first-line{
+    background-color: yellowgreen;
+}
+p:hover{
+    height: 50px;
+    width: 300px;
+    background-color: rgb(11, 3, 250);
+}

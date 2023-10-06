@@ -1,0 +1,31 @@
+/* link: change the default not visited blue color of anchor tag */
+a:link{
+    color: rgb(246, 16, 16);
+}
+/* visited: change the default visited purple colour of anchor tag */
+a:visited{
+    color: rgb(188, 232, 14);
+}
+/* hover: the element is transitioned to the specified property when the cursor placed on the element */
+a{
+    text-decoration: double;
+}
+a:hover{
+    color: rgb(220, 72, 254);
+    background-color: rgb(98, 178, 248);
+    text-decoration: underline;
+}
+p:hover{
+    color: rgb(13, 226, 98);
+    background-color: blueviolet;
+    font-size: 30px;
+}
+/* active: changes the default active red color of anchor tag  */
+a:active{
+    color: yellowgreen;
+}
+/* focus: applies the properties when the element is focused */
+a:focus{
+    color: yellow;
+    background-color: green;
+}

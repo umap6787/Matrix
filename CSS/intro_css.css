@@ -1,0 +1,22 @@
+body{
+    background-color    : rgb(235, 232, 71);
+}
+.blue{
+    background-color: blue;
+    }
+#red{
+ background-color: red;
+}
+/* grouping selector */
+div,h1,h2{
+    background-color: cadetblue;
+}
+/* univesal selector(*)  */
+*{
+    background-color: white;
+    border: 3px solid black;
+}
+/* tag name selector */
+p{
+    background-color: rgb(249, 158, 214);
+}

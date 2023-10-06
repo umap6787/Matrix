@@ -1,0 +1,55 @@
+/* section{
+    height: 400px;
+    width: 400px;
+    background-color: rgba(255, 0, 0, 0.518);
+    position: relative;
+}
+section aside{
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    position: absolute;
+    margin: 200px 0px 0px 200px;
+    z-index: -1;
+} */
+
+section{
+    position: relative;
+}
+section #main{
+    height: 400px;
+    width: 700px;
+    border: 10px solid red;
+    position: relative;
+    /* z-index: 1; */
+    margin: 100px 0px 0px 0px;
+}
+section #first{
+    height: 100px;
+    width: 300px;
+    background-color: blue;
+    /* position: absolute; --> we can set anywhere at the web page(it will will float) */
+    position: absolute;
+    top: 350px;
+    left: 200px;
+    z-index: -1;
+}
+section #second{
+    height: 350px;
+    width: 200px;
+    background-color: rgb(255, 0, 162);
+    position: absolute;
+    top: 50px;
+    left: 250px;
+    z-index: -2;
+}
+section #third{
+    height: 200px;
+    width: 400px;
+    background-color: rgb(0, 255, 55);
+    position: absolute;
+    top: -100px;
+    left: 150px;
+    z-index: -3;
+    /* position:relative, absolute, fixed, static, sticky ; */
+}

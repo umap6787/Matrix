@@ -1,0 +1,137 @@
+/* decending order */
+section article{
+    background-color: rgb(78, 179, 250);
+}
+section article aside{
+    background-color: blueviolet;
+}
+/* descendent selector: it will target both direct and indirect child */
+section aside{
+    background-color: coral;
+}
+/* > child selector: it will taget only direct child */
+section>aside{
+    background-color: darkolivegreen;
+}
+/* General sibling selector (~ tilled)*/
+section~div{
+    background-color: rgb(249, 111, 185);
+}
+/* Adjucent sibling selector */
+section+p{
+    background-color: aqua;
+}
+section+p+p{
+    background-color: cadetblue;
+}
+section+p+p+div+div{
+    background-color: burlywood;
+}
+#section_block .article_block #aside_block{
+    background-color: bisque;
+}
+#section_block .article_block {
+    background-color: rgb(202, 116, 11);
+}
+
+/* attribute name */
+p[id]{
+    background-color: darkolivegreen;
+}
+p[class]{
+    background-color: rgb(240, 143, 204);
+}
+
+/* attribute name and value */
+p[id="demo"]{
+    background-color: rgb(157, 244, 9);
+}
+p[class="fun"]{
+    background-color: rgb(162, 143, 241);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

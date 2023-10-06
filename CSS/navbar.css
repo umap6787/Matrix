@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{
+    height: 70px;
+    width: 100%;
+    /* border: 3px solid red; */
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: aliceblue;
+}
+nav #left_main_block{
+    height: 70px;
+    width: 500px;
+    /* border: 2px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+nav #right_main_block{
+    height: 70px;
+    width: 600px;
+    /* border: 2px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+nav #left_main_block .logo_block{
+    height: 50px;
+   flex-basis: 100px;
+    /* border: 2px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 15px;
+}
+nav #left_main_block .hyperLink_block{
+    height: 50px;
+    flex-basis: 400px;
+    /* border: 2px solid  blue; */
+}
+nav #left_main_block .icon_block{
+    height: 50px;
+    flex-basis: 100px;
+    /* border: 2px solid  blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav #right_main_block .socialmedia_block{
+     height: 50px;
+     flex-basis:150px;
+     border: 0.5px solid rgb(96, 93, 93);
+     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav #right_main_block .back_btn_block{
+    height: 50px;
+    flex-basis: 100px;
+    border: 0.5px solid rgb(96, 93, 93);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 15px;
+}
+nav #right_main_block .download_block{
+    height: 50px;
+    flex-basis: 200px;
+    /* border: 2px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 15px;
+    background-color: rgb(255, 106, 106);
+}
+nav #left_main_block .hyperLink_block ul{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    border: 0.5px solid rgb(96, 93, 93);
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 15px;
+    cursor: pointer;
+}
+nav #left_main_block .hyperLink_block ul #desktop{
+    height: 45px;
+    width: 80px;
+    background-color: rgb(59, 58, 58);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+nav #left_main_block .hyperLink_block ul li:hover{
+    height: 50px;
+    width: 90px;
+    background-color: grey;
+}    
+nav #left_main_block .icon_block:hover{
+    height: 50px;
+    width: 90px;
+    color: rgb(253, 69, 69);
+    border: 2px solid rgb(249, 68, 68);
+}
+nav #right_main_block .socialmedia_block #fb{
+    height: 25px;
+    background-color: rgb(0, 98, 255);
+    color: white;   
+}
+nav #right_main_block .socialmedia_block #x{
+    background-color: rgb(65, 136, 250);
+    height: 25px;
+    color: white;
+}
+nav #right_main_block .back_btn_block:hover{
+    height: 50px;
+    width: 90px;
+    color: rgb(253, 69, 69);
+    border: 2px solid rgb(249, 68, 68);
+}

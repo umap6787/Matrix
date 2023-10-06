@@ -1,0 +1,46 @@
+/* TRANSITION */
+/* transition-property
+transition-duration
+transition-timing-function
+transition-delay */
+
+/* SHORTHAND PROPERTY */
+/* transition-property
+transition-duration
+transition-timing-function
+transition-delay */
+
+/* TRANSFORM */
+/* ROTATE==>DEGREE
+SKEW==>DEGREE
+SCALE==> DECIMAL & INTEGER */
+
+section{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+
+    /* transition-duration: 5s;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s; */
+
+    transition: all 5s ease-in-out 1s;
+}
+section:hover{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+
+    /* rotate: 180deg;
+    transform: rotate(180deg); */
+
+    /* transform: rotateX(30px);
+    transform: rotateY(30deg); */
+
+    /* transform: skewX(30deg);
+    transform: skewy(30deg); */
+
+    /* transform: scale(0.2);
+    transform: scale(-2); */
+}

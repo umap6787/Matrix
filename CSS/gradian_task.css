@@ -1,0 +1,22 @@
+body{
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section{
+    height: 500px;
+    width: 800px;
+    border: 5px solid red;
+    color: antiquewhite;
+    background-image:linear-gradient(rgba(255, 0, 0, 0.493),rgba(255, 255, 0, 0.367),rgba(0, 0, 255, 0.438),rgba(255, 166, 0, 0.537),rgba(0, 79, 128, 0.604),rgba(255, 192, 203, 0.577)),url(/IMAGES/polladhavan.jpg);
+
+    background-size: cover;
+    display: flex;
+    /* align-items: center; */
+    justify-content:left;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 3px 3px 1px red,5px 5px 1px blue;
+}

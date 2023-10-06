@@ -1,0 +1,65 @@
+section{
+    height: 410px;
+    width: 800px;
+    /* border: 6px solid red; */
+    display: flex;
+}
+section #img_block{
+    height: 400px;
+    width: 300px;
+    /* border: 6px solid rgb(9, 242, 9); */
+    background-image: url(../IMAGES/leo.jpeg);
+}
+section #form_block{
+    height: 400px;
+    width: 500px;
+    /* border: 6px solid blue; */
+    /* background-image: url(../IMAGES/jailer.jpeg); */
+}
+section #form_block form fieldset{
+    height: 355px;
+    border: 10px solid rgb(230, 170, 4);
+}
+section #form_block form fieldset legend{
+    font-size: 35px;
+    font-weight: bolder;
+    color: rgb(237, 6, 44);
+}
+section #form_block form fieldset table{
+    font-size: 25px;
+    font-weight: bolder;
+}
+section #img_block:hover{
+    background-image: url(../IMAGES/jailer.jpeg);
+    transition: 5s;
+}
+section #img_block:hover+#form_block form fieldset{
+    border: 10px solid blue;
+    transition: 5s;
+}
+section #img_block:hover+#form_block form fieldset legend{
+    color: blue;
+    transition: 5s;
+}
+section #form_block form fieldset table tr td label::after{
+    content: "*";
+    color: rgb(255, 0, 0);
+}
+section #form_block form fieldset table tr td input:focus{
+    color: rgb(57, 5, 244);
+    background-color: rgb(6, 246, 170);
+}
+section #form_block form fieldset{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1::first-letter{
+    font-size: 50px;
+    color: rgb(98, 3, 253);
+    background-color: rgb(226, 32, 42);
+}
+h1::first-line{
+    color: rgb(8, 194, 251);
+    background-color: rgb(255, 1, 208);
+}

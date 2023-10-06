@@ -1,0 +1,51 @@
+section{
+    height: 800px;
+    width: 800px;
+    border: 10px dotted red;
+    background-color: blue;
+    background-image: url(/IMAGES/THALSPTHY.jpeg);
+    color: whitesmoke;
+    padding: 100px;
+    
+    /*               width height */
+    background-size: 300px 300px;
+    
+    /* by default background-repeat is : repeat */
+    /* it wont allow the repetation of the image */
+    background-repeat: no-repeat;
+
+    /* image will rounded to the size of the background size */
+    /* background-repeat: round; */
+
+    /* background-size: contain cover; */
+     /* background-size: cover; */
+
+    /* Background-position --> top, bottom, right, left, center, top right, top left, bottom right, bottom left */
+    background-position: center;
+
+    /* background-origin: -->background image;(padding-box, border-box, content-box */
+    background-origin: border-box;
+
+    /* background-color: --> background colour;(border-box, padding-box, content-box(default)) */
+    background-color: content-box;
+
+    /* background-clip: ==> for background colour;(border-box, padding-box, content-box(default)) ; */
+    background-clip: content-box;
+}
+aside{
+    height: 800px;
+    width: 400px;
+    border: 2px solid black;
+    color: black;
+    background-image: url(../IMAGES/Instagram.jpeg);
+    background-size: 100px 100px;
+
+    
+    /* overflow: scroll; */
+    background-repeat: no-repeat;
+
+    /* scroll--> attach to the element */
+    /* local--> attach to the content of the element */
+    /* fixed--> attach to the view port of the given element */
+    background-attachment: fixed;
+}

@@ -1,0 +1,78 @@
+p{
+    border: 2px solid red;
+    /*       top   right bottom left */
+    /* padding: 20px  30px   10px  40px;
+    margin: ; */
+    /* padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 75px;
+    padding-right: 25px; */
+    /* margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 100px;
+    margin-bottom: 200px; */
+    /* margin-top: -20px; */
+}
+
+div{
+    border: 10px solid blueviolet;
+    height: 50px;
+    width: 150px;
+    /* box-sizing: border-box; --> here it allow only the the content to move inside the block.
+        it wont allow to increase the height and width of the border */
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+span{
+    border: 10px solid rgb(3, 244, 3);
+    padding: 20px;
+}
+
+.uma{
+    height: 200px;
+    width: 200px;
+    border-width: 10px;
+    border-style: dashed;
+    border-color: rgb(6, 177, 245);
+    border-top-width: 30px;
+    border-top-color:black;
+    border-right-width: 20px ;
+    border-right-color:rgb(248, 7, 7);
+    border-bottom-width: 40px dotted;
+    border-bottom-color:rgb(84, 3, 246);
+    border-left-width: 10px;
+    border-left-color:rgb(249, 4, 233);
+}   
+
+#uma{
+    height: 200px;
+    width: 200px;
+    border-top: 10px solid red;
+    border-right: 10px groove rgb(26, 255, 0);
+    border-bottom: 10px dotted rgb(222, 3, 247);
+    border-left: 10px dashed rgb(0, 38, 255);
+}
+
+#sanju{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    background-color: rgb(253, 245, 4);
+    border-radius: 130px 20px 130px 30px ;
+}
+
+aside{
+    height: 300px;
+    width: 200px;
+background-color: red;
+border-radius: 350px 252px 0px 600px ;
+}
+footer{
+    height: 300px;
+    width: 200px;
+    background-color: red;
+    margin-left: 200px;
+    margin-top: -300px;
+    border-radius: 252px 350px 600px 0px;
+}
