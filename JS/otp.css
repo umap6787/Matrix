@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+section{
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+    background-color: blue;
+    box-shadow: 0px 0px 0px black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+section aside{
+    height: 70px;
+    width: 70px;
+    background-color: rgb(208, 47, 47);
+    border-radius: 10px;
+    font-size: 50px;
+    display: flex
+}
