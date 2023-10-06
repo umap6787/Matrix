@@ -1,7 +1,8 @@
 package test;
+
 import java.util.Scanner;
 
-public class DuplicateElements {
+public class ReplaceArray {
 
 	public static void main(String[] args) {
 		Scanner s=new Scanner(System.in);
@@ -21,29 +22,19 @@ public class DuplicateElements {
 	}
 
 	static int[] getEle(int[] arr) {
-		
-		int[] t=new int[arr.length];
-		int in=0;
-		
 		for(int i=0;i<arr.length;i++) {
-			int j=i-1;
-			for(;j>=0;j--) {
-				if(arr[i]==arr[j]) {
-					break;
-				}
-			}
-			if(j==-1) {
-				t[i]=arr[i];
-				in++;
-			}
+			arr[i]=getSum(arr[i]);
 		}
-		int[] ar=new int[in];
-		for(int i=0;i<in;i++) {
-			ar[i]=t[i];
-		}
-		
-		
-		return ar;
+		return arr;
 	}
 
+	static int getSum(int i) {
+		int sum=0;
+		while(i>0) {
+			int a=i%10;
+			sum=sum+a;
+			i=i/10;
+		}
+		return sum;
+	}
 }
