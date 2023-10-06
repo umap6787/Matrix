@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <!-- method="post" : it does not shows any data after submit ,it will be securly store the data -->
+    <!-- method="pre" : it shows data after submit ,it will not store the data securly -->
+    <form method="post">
+        <!-- fieldset: it will gives the border of the form -->
+        <fieldset style="width: 200px;">
+            <!-- legent: Caption that have been given on the boarder of the form -->
+            <legend><b>LOGIN</b></legend>
+        <table>
+            <tr>
+                <td><label for="id">User ID</label></td>
+                <td><input type="email" id="id" required placeholder="Enter user id"></td>
+            </tr>
+            <tr>
+                <td><label for="pw">PassWord</label></td>
+                <td><input type="password" id="pw" required placeholder="Enter your Password"></td>
+            </tr>
+            <tr>
+                <td><input type="submit"></td>
+                <td><input type="reset"></td>
+            </tr>
+        </table>
+    </fieldset>
+    </form>
+</body>
+</html>

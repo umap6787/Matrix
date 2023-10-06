@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- form: arrage all the content inside the form -->
+    <!-- label: use to specify the content that given by user -->
+    <!-- for ,id of lable tag and input tag must be same to specify exact properties of that content -->
+    <!-- for: user to link lable & corresponding input field where the value of for and id attributes should be same -->
+    <!-- input: (id -> identification of data) use to get data from the user -->
+    <!-- br: break the line -->
+    <!-- type: specify type of content to specify-->
+    <!-- name: it will act like a container to hold the user input, in radio button the name attribute makes any one of the option to select -->
+    
+<form action="">
+    <label for="first_name">First Name</label>
+    <input type="text" name="first_name" id="first_name">
+    <br><br>
+
+    <!-- text: text content -->
+    <label for="last_name">Last Name</label>
+    <input type="text" name="last_name" id="last_name">
+    <br><br>
+
+    <!-- radio: it will use to select the requered value -->
+    <!-- value: in radio &checkboxthe value attributes is used to specifies what data or which radio or checkbox was selected (it specify what data the user is selected) -->  
+    <label for="gender">Gender</label>
+    <input type="radio" name="gender" id="gender" value="Male"/>Male
+    <input type="radio" name="gender" id="gender" value="Female"/>Female
+    <br><br>
+
+    <!-- date: is to select the date -->
+    <label for="dob">DOB</label>
+    <input type="date" name="date_of_birth" id="dob">
+    <br><br>
+
+    <!-- tel: for mobile number -->
+    <label for="phone_no">Phone No</label>
+    <input type="tel" name="phone_no" id="phone_no">
+    <br><br>
+
+    <!-- email: it will validate the mail automatically -->
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email">
+    <br><br>
+
+    <!-- password: it will shows the user enter password in dot formate -->
+    <label for="password">PassWord</label>
+    <input type="password" id="password">
+    <br><br>
+
+    <!-- checkbox: used to select multiple content -->
+    <!-- value: it specify what data the user is selected -->
+    <label for="">Skills</label>
+    <input type="checkbox" name="skill" value="java">Java
+    <input type="checkbox" name="skill" value="SQL">SQL
+    <input type="checkbox" name="skill" value="web_Technology">Web Technology
+    <br><br>
+
+    <label for="address">Address</label>
+    <input type="text" id="address">
+    <br><br>
+
+    <!-- submit: use to submit the form-->
+    <input type="submit">
+    <!-- reset: to reset the form -->
+    <input type="reset">
+</form>
+
+</body>
+</html>

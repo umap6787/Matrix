@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- autocomplete: (on) give suggestion of previously entered data -->
+    <!-- autocomplete: (off) will not give suggestion of previously entered data -->
+    <!-- autocomplete: it can able to mention in both form & input -->
+    <!-- novalidate: it will not validate any validation eventhough we specified some validation in the form -->
+    <form autocomplete="on" action="" novalidate>
+        <!-- required: specified it should not be empty (it make field required)-->
+        <label for="Name">Name</label>
+        <!-- placeholder: it will shows the plain text in the input field -->
+        <input type="text" name="Name" id="Name" required placeholder="Enter your name">
+        <br><br>
+        <!-- autofocus: Automatically focus on the input field when the browser load -->
+        <label for="email">Email</label>
+        <input type="email" name="Email" id="email" required autocomplete="off" autofocus>
+        <br><br>
+        <label for="phone">phone Number</label>
+        <input type="tel" name="Mobile_no" id="phone" required>
+        <br><br>
+        <label for="country">Country</label>
+        <!-- readonly: we can't able to change the data(user can able to read only data)-->
+        <input type="text" name="country" id="country" value="India" readonly>
+        <br><br>
+        <!-- file: it will direct to the file manager -->
+        <label for="">Resume</label>
+        <input type="file">
+        <br><br>
+        <!-- textArea: for multiple area-->
+        <!-- style="resize: none;: for text area tag that will not allow user to resize the text area -->
+        <label for="">Address</label>
+        <textarea name="" id="" cols="30" rows="10" style="resize: none;"></textarea>
+        <br><br>
+        <!-- DROP DOWN WAY 1 -->
+        <!-- select:  -->
+        <!-- option: -->
+        <label for="State">State</label>
+        <select name="State" id="State">
+            <!-- option: it is used to select the field in the lables -->
+            <option value="TamilNadu">TamilNadu</option>
+            <option value="Karnataka">Karnataka</option>
+            <option value="Hydrabad">Hydrabad</option>
+        </select>
+        <!-- DROP DOWN WAY 2 -->
+        <label for="District">District</label>
+        <select name="District" id="District">
+            <!-- optgroup: it will grouping the data by lable -->
+            <optgroup label="TamilNadu">
+                <option value="Thiruvallur">Thiruvallur</option>
+                <option value="Chennai">Chennai</option>
+                <option value="Vellore">Vellore</option>
+            </optgroup>
+            <optgroup label="Karnataka">
+                <option value="Bangalore">Bangalore</option>
+                <option value="Chitredurga">Chitredurga</option>
+                <option value="Udupi">Udupi</option>
+            </optgroup>
+        </select>
+        <br><br>
+
+        <!-- pattern: it will validate type of data that to be enter[0-9][a-z][A-Z] -->
+        <!-- {6} -> Size of the data -->
+        <!-- minlength: atleast of the length to be enter-->
+        <!-- maxlength: max of value to be enter -->
+        <label for="pincode">PinCode</label>
+        <input type="text" name="pincode" id="pincode" pattern="[0-9]{6}" min="6" max="6" >
+
+        <br><br>
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age" min="18" max="25">
+        <br></br>
+        <input type="submit" value="Done">&nbsp;&nbsp;
+        <!-- reset: it will reset all the entered data -->
+        <input type="reset" value="Clear">
+    </form>
+    <br><br><br><br><br><br>
+
+</body>
+</html>
